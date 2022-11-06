@@ -1,0 +1,11 @@
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeNegocio.dll
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeNegocio.pdb
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeDatos.dll
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeEntidad.dll
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeDatos.pdb
+C:\TurismoReal\TurismoReal\CapaDeNegocio\bin\Debug\CapaDeEntidad.pdb
+C:\TurismoReal\TurismoReal\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.AssemblyReference.cache
+C:\TurismoReal\TurismoReal\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.CoreCompileInputs.cache
+C:\TurismoReal\TurismoReal\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.CopyComplete
+C:\TurismoReal\TurismoReal\CapaDeNegocio\obj\Debug\CapaDeNegocio.dll
+C:\TurismoReal\TurismoReal\CapaDeNegocio\obj\Debug\CapaDeNegocio.pdb

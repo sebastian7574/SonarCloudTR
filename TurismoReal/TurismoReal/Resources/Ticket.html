@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="font-family: 'Times New Roman'">
+    <div align="center">
+        <hr color="black" />
+
+        <table width="300" align="center">
+            <tr align="center">
+                <td>BOLETA ELECTRÓNICA</td>
+            </tr>
+            <tr align="center">
+                <td>Comprobante: @Ticket</td>
+            </tr>
+            <tr align="center">
+                <td>Fecha emision: @Fecha</td>
+            </tr>
+        </table>
+        <hr color="black" />
+        <h2 align="center">
+            Turismo Real
+        </h2>
+        <table width="300" align="center">
+            <tr align="left">
+                <td>Turismo Real S.A.</td>
+            </tr>
+            <tr align="left">
+                <td>Alquiler de Departamentos</td>
+            </tr>
+        </table>
+
+        <hr />
+        <table width="300">
+            <thead>
+                <tr>
+                    <th align="left">Descripcion</th>
+                    <th align="center">Valor Unitario</th>
+                    <th align="right">SubTotal</th>
+                </tr>
+            </thead>
+        </table>
+        <hr />
+
+        <table width="300">
+            <tr>
+                <td align="left">@descripcion</td>
+            </tr>
+            <tr>
+                <td align="left">@cantidad x</td>
+                <td align="left"> $@valorU</td>
+                <td align="right">@totalItem</td>
+            </tr>
+        </table>
+        <hr />
+
+        <table width="300">
+            <tr>
+                <td align="Right">TOTAL A PAGAR:</td>
+                <td align="right">@TOTAL</td>
+            </tr>
+        </table>
+        <hr />
+        <table width="300">
+            <tr>
+                <td align="left">Metodo de Pago:</td>
+                <td align="right">@metodoPago</td>
+            </tr>
+        </table>
+        <table width="300">
+            <tr>
+                <td align="left">@tipo</td>
+                <td align="right">@efectivo</td>
+            </tr>
+        </table>
+
+        <table width="300">
+            <tr>
+                <td align="left">Vuelto:</td>
+                <td align="right">@cambio</td>
+            </tr>
+        </table>
+
+        <hr />
+        Nuestros precios incluyen IVA
+        <br />
+        <br />
+        MUCHAS GRACIAS POR PREFERIRNOS!
+        <hr />
+    </div>
+</body>
+</html>

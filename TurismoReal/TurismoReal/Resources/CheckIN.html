@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="font-family: 'Times New Roman'">
+	<div align="center" width="670">
+
+		<div align="center">
+			<h3 align="center">CONTRATO DE ARRIENDO DE VIVIENDA PARA USO VACACIONAL</h3>
+		</div>
+
+		<div align="right">
+			<table align="right">
+				<tr>
+					<td>Fecha: @Fecha</td>
+				</tr>
+			</table>
+		</div>
+
+		<br />
+
+		<div align="left">
+			<table align="left">
+				<tr>
+					<td>Bajo la presente se informa:</td>
+				</tr>
+			</table>
+		</div>
+
+		<div name="Texto" align="justify">
+			<table width="670">
+				<tr>
+					<td align="justify">
+						El Sr./Sra. @cliente , cedula de identidad N. @identidad ,
+						es el arrendatario del deptartamento @nombreDepto
+						ubicado en @direccion , el contrato inicia el @fechaDesde y
+						termina el @fechaTermino .
+					</td>
+				</tr>
+			</table>
+			<table width="670">
+				<tr>
+					<td align="justify">
+						El arrendaratio pago la reserva con @medioPago 
+						un total de @valorReserva .
+					</td>
+				</tr>
+			</table>
+			<br />
+			<table width="670">
+				<tr>
+					<td align="justify">
+						Nuestros departamentos se encuentran acondicionados en su totalidad y
+						sin deterioro en la infraestructura, por ende, a continuacion, se listaron
+						todos los inmuebles/artefactos que el departamento @nombreDepto tiene,
+						de esta manera al final de su estadia podemos realizar una evaluacion para
+						dar un buen mantenimiento a este.
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr />
+
+		<table width="670">
+			<thead>
+				<tr>
+					<th>Listado de Inmuebles/Artefactos</th>
+				</tr>
+			</thead>
+		</table>
+		<hr />
+		<table width="670">
+			<thead>
+				<tr>
+					<th align="left">Descripcion</th>
+					<th align="center">Cantidad</th>
+					<th align="right">Valor Unitario</th>
+				</tr>
+			</thead>
+			<tbody>
+				@listado
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<hr />
+		<br /><br /><br /><br /><br /><br /><br />
+		<div name="Firma" align="right" width="670">
+			<table>
+				<tr>
+					<td align="right">_________________________________</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td align="right">Firma Sr./Sra. @cliente</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
